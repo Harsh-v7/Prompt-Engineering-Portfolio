@@ -109,9 +109,21 @@
 > Create a tagline for an eco-friendly water bottle.
 
 **V1 Output:**
-> "Sip Smart. Live Green." 🌱💧
+> "Sip Smart. Live Green." 
 
 ---
+**Refined Prompt (V2):**
+> Generate 5 memorable and modern taglines for a sustainable water bottle brand. The target audience is young adults who care about the environment, healthy living, and stylish everyday products. The taglines should be short, catchy, and inspiring, emphasizing both personal wellness and reducing plastic waste.
 
+**V2 Output:**
+> 1. Hydrate Better. Live Greener.
+> 2. Refill Your Bottle, Refresh the Planet.
+> 3. Drink Clean. Leave Less Behind.
+> 4. Good for You. Great for Earth.
+> 5. Every Sip Makes a Difference.
+
+---
+**Final Prompt (V3):**
+> 
 
 
