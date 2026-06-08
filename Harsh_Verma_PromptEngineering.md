@@ -52,11 +52,12 @@
 > Thank you again for your confidence in me.
 
 > Sincerely,
+
 > [Your Name]
 
 ---
 **Refined Prompt (V2):**
-> Write a polite and professional email declining a job offer while thanking the company for the opportunity. I want to express that i'm still inetrested in the company for future opportunities.
+> Write a polite and professional email declining a job offer while thanking the company for the opportunity. I want to express that i'm still interested in the company for future opportunities.
 
 **V2 Output:**
 
