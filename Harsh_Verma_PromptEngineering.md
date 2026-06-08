@@ -188,5 +188,27 @@
 > Write a short opening paragraph for a mystery story set in an abandoned house.
 
 ---
+**Test 1 — Low Temperature (simulated: added "Be precise and consistent")**
+
+**Full Prompt:** "Write a short opening paragraph for a mystery story set in an abandoned house. Be precise and consistent."
+
+**Output:**
+> The abandoned house stood at the end of the street, covered in dust and broken windows. Nobody had lived there for over twenty years after the sudden disappearance of the Morgan family. On a cold evening, Emma pushed open the creaking gate and noticed a faint light glowing inside the upstairs window.
+
+---
+**Test 2 — Medium Temperature (prompt used as-is)**
+
+**Full Prompt:** "Write a short opening paragraph for a mystery story set in an abandoned house."
+
+**Output:**
+> Rain tapped softly against the roof as Daniel stepped toward the abandoned house on the hill. The building looked lifeless, yet the front door slowly swung open as if someone had been waiting for him. A strange smell of old books and smoke drifted through the darkness, and somewhere deep inside, a clock began to tick.
+
+---
+**Test 3 — High Temperature (simulated: added "Be creative and explore diverse ideas")**
+
+**Full Prompt:** "Write a short opening paragraph for a mystery story set in an abandoned house. Be creative and explore diverse ideas."
+
+**Output:**
+> The abandoned house breathed like a sleeping animal beneath the silver moonlight. Ivy curled around its walls like green fingers, and the windows blinked with sudden flashes of blue light. As Mira stepped onto the porch, she heard music playing backward from somewhere underground, followed by a child’s laughter that ended too suddenly to be human.
 
 
