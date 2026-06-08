@@ -225,16 +225,12 @@
 ### 2.2 Analysis & Recommendations
 
 > **Low temperature** is best used when accuracy and consistency are non-negotiable. Two ideal use cases are:
-
-(1) Generating technical explanations that require accuracy and consistency.
-
-(2) Writing formal business reports or professional emails where predictable output is important.
+> - Generating technical explanations that require accuracy and consistency.
+> - Writing formal business reports or professional emails where predictable output is important.
 
 > **High temperature** shines when originality is the goal. Two strong use cases are:
-
-(1) Creating creative stories, poems, or fictional content.
-
-(2) Brainstorming marketing slogans, brand names, or innovative ideas.
+> - Creating creative stories, poems, or fictional content.
+> - Brainstorming marketing slogans, brand names, or innovative ideas.
 
 > For this specific task — **The medium temperature** worked best for my mystery story task because it balanced creativity and coherence. The story remained logical and easy to follow while still including interesting and imaginative details. This made the output more engaging without becoming too random or inconsistent.
 
@@ -253,6 +249,8 @@
 
 **Output:**
 > The company will have 171 employees after hiring.
+
+*(Note: This answer is incorrect — the correct answer is 172, as shown in the chain-of-thought section below. This illustrates the risk of direct-answer prompting for multi-step problems.)*
 
 ---
 **With Chain-of-Thought:**
@@ -273,5 +271,88 @@
 > **Step 3: Add the new hires to the total.**
 > - Total new employees: 18 + 4 = **22 new hires**
 > - Total employees after hiring: 150 + 22 = **172 employees**
+
+---
+**Comparison:**
+
+The chain-of-thought output was much more detailed because it explained each calculation step clearly. The non-chain-of-thought response only gave the final answer without showing reasoning. Chain-of-thought prompting helps with complex reasoning because it breaks problems into smaller logical steps, reducing mistakes and improving transparency. One limitation is that the reasoning can sometimes become unnecessarily long or include calculation errors if the model makes a mistake early in the process, so the final answer should still be manually verified for high-stakes applications; the structure helps but doesn't guarantee correctness.
+
+---
+### 3.2 Few-Shot Prompting
+
+#### Step 1: Zero-Shot Attempt
+
+**Prompt:**
+> Classify the sentiment of each of the following customer reviews as Positive, Negative, or Neutral.
+
+> 1. "The product arrived damaged and customer service was unhelpful."
+> 2. "Works as expected, nothing special but does the job."
+> 3. "Absolutely love this! Best purchase I've made all year!"
+> 4. "The quality is okay but slightly overpriced for what you get."
+> 5. "Terrible experience, would not recommend to anyone."
+
+**Zero-Shot Output:**
+> 1. Negative
+> 2. Neutral
+> 3. Positive
+> 4. Neutral
+> 5. Negative
+
+---
+#### Step 2: Few-Shot Attempt
+
+**Prompt:**
+> You are a sentiment classifier. Classify each review below as exactly one of: Positive, Negative, or Neutral. Use the following examples to guide your classifications.
+
+> ---
+> **Examples:**
+
+> Review: "This product exceeded my expectations in every way!"
+> - Sentiment: Positive
+
+> Review: "Completely broke after one week of use. Very disappointed."
+> - Sentiment: Negative
+
+> Review: "It's fine, does what it says on the box. Nothing more."
+> - Sentiment: Neutral
+
+> Review: "Fast shipping and the item looks exactly like the photos."
+> - Sentiment: Positive
+
+> Review: "The color was slightly off from the listing, but it works fine."
+> - Sentiment: Neutral
+
+> ---
+> **Now classify these reviews:**
+
+> 1. "The product arrived damaged and customer service was unhelpful."
+> 2. "Works as expected, nothing special but does the job."
+> 3. "Absolutely love this! Best purchase I've made all year!"
+> 4. "The quality is okay but slightly overpriced for what you get."
+> 5. "Terrible experience, would not recommend to anyone."
+
+**Few-Shot Output:**
+> 1. Negative
+> 2. Neutral
+> 3. Positive
+> 4. Neutral
+> 5. Negative
+
+---
+#### Step 3: Comparison Table
+
+| Review # | Zero-Shot Result | Few-Shot Result | Correct Label | Improved? |
+| -------- | ---------------- | --------------- | ------------- | --------- |
+| 1        | Negative         | Negative        | Negative      | No        |
+| 2        | Neutral          | Neutral         | Neutral       | No        |
+| 3        | Positive         | Positive        | Positive      | No        |
+| 4        | Neutral          | Neutral         | Neutral       | No        |
+| 5        | Negative         | Negative        | Negative      | No        |
+
+> Few-shot prompting is most useful when the task format is complex or ambiguous. Providing examples helps the model understand the expected pattern, tone, and structure. It is especially effective for classification tasks, formatting tasks, and domain-specific responses where consistency matters.
+
+---
+## Part 4: Responsible AI & Limitations
+
 
 
