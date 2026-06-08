@@ -5,7 +5,7 @@
 **Date:** May 29, 2026
 
 **LLM Used:** ChatGPT (GPT-5.5)
----
+
 ## Part 1: Prompt Design & Iteration
 
 ### 1.1 Scenario A: Technical Explanation
@@ -104,4 +104,5 @@
 
 **Goal:** Generate a creative marketing tagline for a new eco-friendly water bottle brand.
 
+---
 **Initial Prompt (V1):**
