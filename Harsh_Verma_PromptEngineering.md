@@ -27,3 +27,6 @@
 
 **Final Output:**
 > Imagine you have a super-smart puppy named Sparky who wants to learn how to recognize different animals. At first, Sparky sees pictures of cats and dogs but gets them mixed up. Every time he guesses, you tell him if he's right or wrong. After looking at lots of pictures, Sparky starts noticing clues—cats often have pointy ears and long whiskers, while dogs can have different-shaped noses and ears. A neural network learns in a similar way. It looks at many examples, finds helpful clues, and gets better with practice. It's like a student who becomes better at math after solving many problems. Neural networks help power things you use every day, such as phone face unlock, voice assistants, and video recommendations. So, you can think of a neural network as a computer learner that studies lots of examples and becomes smarter over time!
+
+---
+---
