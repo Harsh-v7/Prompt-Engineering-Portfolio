@@ -55,6 +55,25 @@
 > [Your Name]
 
 ---
+**Refined Prompt (V2):**
+> Write a polite and professional email declining a job offer while thanking the company for the opportunity. I want to express that i'm still inetrested in the company for future opportunities.
 
+**V2 Output:**
+
+> Subject: Re: Job Offer – [Position Title]
+
+> Dear Hiring Manager,
+
+> Thank you very much for offering me the opportunity to join your company. I sincerely appreciate the time and effort that you and the hiring team invested throughout the recruitment process.
+
+> After careful consideration, I have decided to decline the job offer at this time. This was not an easy decision, as I was genuinely impressed by the company, its values, and the people I had the pleasure of meeting during the interview process.
+
+> I am grateful for your confidence in my abilities and for the opportunity to learn more about your organization. Although I will not be accepting the position, I remain very interested in your company and would welcome the possibility of being considered for future opportunities that may align with my career goals.
+
+> Thank you again for your understanding and support. I wish you and your team continued success, and I hope our paths may cross again in the future.
+
+> Kind regards,
+
+> [Your Name]
 
 
