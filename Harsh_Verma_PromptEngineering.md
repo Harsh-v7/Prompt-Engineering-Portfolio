@@ -12,6 +12,8 @@
 
 **Goal:** Explain "neural networks" to a 10-year-old.
 
+---
+
 **Initial Prompt (V1):**
 > Explain the concept of neural networks to a 10 year old child.
 
@@ -34,6 +36,8 @@
 ### 1.1 Scenario B: Professional Email
 
 **Goal:** Decline a job offer politely while expressing continued interest in the company.
+
+---
 
 **Initial Prompt (V1):**
 > Write an email declining a job offer.
