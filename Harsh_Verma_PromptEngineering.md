@@ -211,4 +211,67 @@
 **Output:**
 > The abandoned house breathed like a sleeping animal beneath the silver moonlight. Ivy curled around its walls like green fingers, and the windows blinked with sudden flashes of blue light. As Mira stepped onto the porch, she heard music playing backward from somewhere underground, followed by a child’s laughter that ended too suddenly to be human.
 
+---
+**Comparison Table**
+
+| Temperature  | Style                    | Creativity Level | Consistency      |
+| ------------ | ------------------------ | ---------------- | ---------------- |
+| Low (0.2)    | Direct and factual       | Low              | Very consistent  |
+| Medium (0.7) | Balanced and descriptive | Moderate         | Good balance     |
+| High (1.3)   | Highly imaginative       | Very high        | Less predictable |
+
+
+---
+### 2.2 Analysis & Recommendations
+
+> **Low temperature** is best used when accuracy and consistency are non-negotiable. Two ideal use cases are:
+
+(1) Generating technical explanations that require accuracy and consistency.
+
+(2) Writing formal business reports or professional emails where predictable output is important.
+
+> **High temperature** shines when originality is the goal. Two strong use cases are:
+
+(1) Creating creative stories, poems, or fictional content.
+
+(2) Brainstorming marketing slogans, brand names, or innovative ideas.
+
+> For this specific task — **The medium temperature** worked best for my mystery story task because it balanced creativity and coherence. The story remained logical and easy to follow while still including interesting and imaginative details. This made the output more engaging without becoming too random or inconsistent.
+
+---
+## Part 3: Strategic Prompting Techniques
+
+### 3.1 Chain-of-Thought Prompting
+
+**Chosen Problem — Option B (Multi-Step Reasoning):**
+> A company has 150 employees. 60% work in engineering, 25% in sales, and the rest in operations. If the company plans to hire 20% more engineers and 10% more sales people, how many total employees will there be after hiring?
+
+---
+**Without Chain-of-Thought:**
+
+> **Prompt:** "A company has 150 employees. 60% work in engineering, 25% in sales, and the rest in operations. If the company plans to hire 20% more engineers and 10% more sales people, how many total employees will there be after hiring?"
+
+**Output:**
+> The company will have 171 employees after hiring.
+
+---
+**With Chain-of-Thought:**
+> **Prompt:** Solve this step by step. A company has 150 employees. 60% work in engineering, 25% in sales, and the rest in operations. The company plans to hire 20% more engineers and 10% more sales people. Calculate the total number of employees after hiring.
+
+**Output:**
+> Let's work through this carefully, step by step.
+
+> **Step 1: Find current department sizes.**
+> - Engineering: 60% of 150 = 0.60 × 150 = **90 employees**
+> - Sales: 25% of 150 = 0.25 × 150 = **37.5 → 38 employees** (rounding to nearest whole person)
+> - Operations: 150 − 90 − 38 = **22 employees**
+
+> **Step 2: Calculate new hires.**
+> - New engineers: 20% of 90 = 0.20 × 90 = **18 new engineers**
+> - New sales: 10% of 38 = 0.10 × 38 = **3.8 → 4 new sales people**
+
+> **Step 3: Add the new hires to the total.**
+> - Total new employees: 18 + 4 = **22 new hires**
+> - Total employees after hiring: 150 + 22 = **172 employees**
+
 
