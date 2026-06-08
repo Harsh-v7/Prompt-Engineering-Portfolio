@@ -15,10 +15,10 @@
 ---
 
 **Initial Prompt (V1):**
-> Explain the concept of neural networks to a 10 year old child.
+> Explain what is neural network.
 
 **V1 Output:**
-> Neural networks are a way for computers to learn, kind of like how people learn from experience. Imagine you're teaching a friend how to recognize a cat. At first, they might not know what makes a cat different from a dog. But after seeing lots of pictures, they start noticing things like pointy ears, whiskers, and a long tail. A neural network works in a similar way. It is made up of many tiny parts called "neurons" that work together like a team. Each neuron looks for small clues. One might look for ears, another for eyes, and another for fur. When they combine their clues, they can decide whether the picture is a cat or a dog.
+> A neural network is a computational model inspired by the structure and functioning of the human brain. It consists of interconnected nodes, known as neurons, organized into input, hidden, and output layers. These neurons process information by applying mathematical operations to input data and passing the results through the network. During training, the network adjusts the strength of its connections, called weights, using algorithms such as backpropagation and gradient descent to reduce prediction errors. By learning patterns from large datasets, neural networks can perform tasks such as image recognition, natural language processing, speech recognition, and predictive analytics.
 ---
 **Refined Prompt (V2):**
 > Explain neural networks in very simple language for a 10-year-old child. Use examples from daily life.
@@ -146,7 +146,7 @@
 
 | Version | Prompt                                                                                                                                                                                                                                                         | What Changed                                                                         | Why This Improved the Output                                                                                 |
 | ------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
-| V1      | Explain the concept of neural networks to a 10-year-old child.                                                                                                                                                                                                 | N/A                                                                                  | N/A                                  |
+| V1      | Explain what is neural network.                                                                                                                                                                                                | N/A                                                                                  | N/A                                  |
 | V2      | Explain neural networks in very simple language for a 10-year-old child. Use examples from daily life.                                                                                                                                                         | Added simpler language and real-life examples.                                       | Made the concept easier to understand and more relatable for children.                                       |
 | V3      | You are a fun science teacher explaining technology to curious children. Explain neural networks to a 10 year old child using a simple relatable story, fun examples, and easy words. Keep it under 150 words, avoid technical jargon and make it interesting. | Added role assignment, storytelling, tone, length constraints, and audience context. | Produced a more engaging, child-friendly explanation that was easier to remember and more enjoyable to read. |
 
